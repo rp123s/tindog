@@ -1,0 +1,156 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+#cta, #title {
+    background-color: #ff4c68;
+}
+/* homepage-section */
+.navbar {
+  padding-left:0;
+}
+h1{
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+}
+.title-page {
+  padding: 3% 15% 7%;
+}
+#title {
+}
+.home-page-img {
+  width: 50%;
+  transform: rotate(25deg);
+  position: absolute;
+  top: 70px;
+  left: 100px;
+}
+.banner h1 {
+   text-align: left;
+}
+@media screen and (max-width:1000px) {
+  .home-page-img {
+    position:relative;
+    transform:rotate(0);
+    text-align: center;
+  }
+  #title {
+    text-align: center;
+  }
+  .img-container{
+    left:60px;
+  }
+}
+/* navbar styles*/
+.navbar{
+  padding-bottom: 4.5rem;
+}
+.navbar-nav li {
+  font-size: 1.75rem;
+  padding-left: 50px;
+}
+.navbar-brand {
+  font-size: 2.5rem;
+}
+.navbar-brand {
+  font-size: 2.5rem;
+
+}
+/* button-styles */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* features section */
+#features {
+   position:relative;
+}
+.features-section {
+  background-color: #fff;
+  margin:0px 50px 10px;
+  padding:200px 50px 150px;
+}
+.f-icons {
+  color: #ec4646;
+  padding-bottom: 1rem;
+}
+.f-icons:hover{
+  color:#ff4c68;
+}
+.features-section p {
+  color:#719fb0;
+}
+.features-section h3 {
+    font-size: 1.25rem;
+
+}
+
+/* testimonials section */
+.carousel-item{
+  background-color: #cf8172;
+  padding:7% 15%;
+}
+.testimonials a{
+  margin-top:11.25rem;
+}
+.testimonials img{
+  width:15%;
+  border-radius: 100%;
+  margin-top:1rem;
+  margin-right: 1rem;
+}
+.testimonials h2{
+  color:#fff;
+  line-height: 3rem;
+}
+/* press-section */
+.press-section{
+  background-color: #cf8172;
+  padding-left: 100px;
+  padding-right:100px;
+  padding-bottom: 50px;
+}
+
+.press-img{
+  width:15%;
+  margin:20px;
+
+}
+
+/* pricing section*/
+#pricing{
+  padding: 100px;
+}
+.card{
+   margin-bottom: 50px;
+}
+#pricing p{
+  padding-bottom: 50px;
+}
+/* footer */
+#cta {
+  padding: 30px;
+  text-align: center;
+  color:#fff;
+}
+
+.footer-button{
+  margin:20px;
+}
+#footer{
+  color:gray;
+  font-size:0.75rem;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #fff;
+}
+.cta h3{
+  margin-bottom:20px;
+}
